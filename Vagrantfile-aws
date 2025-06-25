@@ -30,3 +30,6 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 SHELL
 end
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+vagrant up --provider=aws
