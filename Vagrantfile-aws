@@ -1,5 +1,6 @@
 #VAGRANT TO PROVISION AWS INSTANCE
 Install the AWS plugin: vagrant plugin install vagrant-aws
+vagrant plugin update
 
 Vagrant.configure("2") do |config|
 config.vm.box = "dummy"
